@@ -1,0 +1,62 @@
+body{
+background-image: url('https://images4.alphacoders.com/702/thumb-1920-702739.jpg');
+background-size: cover;
+}
+
+
+
+.box{
+
+    display: grid;
+    width: 600px;
+    height: 450px;
+    margin: 150px auto;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(5,80px);
+    opacity: 0.6;
+
+}
+
+
+.btn{
+    color: black;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: darkgray;
+   
+}
+
+.btn:hover{
+    background-color: lime;
+    transition: 0.25s;
+    
+}
+
+#time{
+    color: mintcream;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: mediumaquamarine;
+    border-radius: 10px auto;
+    float: right;
+}
+
+#bestrecords{
+    color: mintcream;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: mediumaquamarine;
+    border-radius: 10px auto;
+    float: right;
+}
+#hard{
+    
+    color: mintcream;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: mediumaquamarine;
+    border-radius: 10px auto;
+    font-size: x-large;
+}
